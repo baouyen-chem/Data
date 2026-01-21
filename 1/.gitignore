@@ -1,0 +1,19 @@
+# Jupyter Notebook checkpoints (File tạm khi bạn đang soạn thảo)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python bytecode (File rác sinh ra khi chạy code)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Các file dữ liệu cực lớn (Nếu có)
+# Bạn không nên đẩy file dữ liệu hàng GB lên GitHub
+*.csv
+*.xlsx
+# (Nếu muốn đẩy một file csv cụ thể thì dùng: !ten_file.csv)
+
+# Môi trường ảo (Virtual Environments)
+venv/
+env/
+.env
